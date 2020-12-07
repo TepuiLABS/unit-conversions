@@ -2,11 +2,9 @@
 namespace Tepuilabs\UnitConversions;
 
 use PHPUnit\Framework\TestCase;
-use Tepuilabs\UnitConversions\Ounces;
 
 class OuncesTest extends TestCase
 {
-
     /** @test */
     public function it_can_conver_ounces_to_lbs()
     {
