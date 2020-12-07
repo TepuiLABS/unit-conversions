@@ -18,8 +18,7 @@ composer require tepuilabs/unit-conversions
 ## Usage
 
 ``` php
-$skeleton = new Tepuilabs\UnitConversions();
-echo $skeleton->echoPhrase('Hello, Tepuilabs!');
+$lbs = \Tepuilabs\UnitConversions\Weight::fromKilograms(100)->toLbs();
 ```
 
 ## Testing
