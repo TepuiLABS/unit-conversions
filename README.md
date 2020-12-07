@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="unit-conversions.png" width="612">
+</p>
+
 # Perform unit conversions
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tepuilabs/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/tepuilabs/unit-conversions)
@@ -5,7 +9,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/tepuilabs/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/tepuilabs/unit-conversions)
 
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+This package can perform various unit conversions.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 {
     "name": "tepuilabs/unit-conversions",
-    "description": "Perfomr unit conversions",
+    "description": "This package can perform various unit conversions.",
     "keywords": [
         "tepuilabs",
         "unit-conversions"
