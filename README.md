@@ -1,4 +1,4 @@
-# Perfomr unit conversions
+# Perform unit conversions
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tepuilabs/unit-conversions.svg?style=flat-square)](https://packagist.org/packages/tepuilabs/unit-conversions)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/tepuilabs/unit-conversions/run-tests?label=tests)](https://github.com/tepuilabs/unit-conversions/actions?query=workflow%3Arun-tests+branch%3Amaster)
