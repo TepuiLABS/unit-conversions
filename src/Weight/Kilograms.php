@@ -1,8 +1,8 @@
 <?php
 
-namespace Tepuilabs\UnitConversions;
+namespace Tepuilabs\UnitConversions\Weight;
 
-class Weight
+class Kilograms
 {
     private float $kilograms;
 

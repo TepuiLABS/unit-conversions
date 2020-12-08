@@ -3,14 +3,14 @@
 namespace Tepuilabs\UnitConversions\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Tepuilabs\UnitConversions\Weight;
+use Tepuilabs\UnitConversions\Weight\Kilograms;
 
-class WeightTest extends TestCase
+class KilogramsTest extends TestCase
 {
     /** @test */
     public function it_can_conver_kilograms_to_lbs()
     {
-        $lbs = Weight::fromKilograms(100)->toLbs();
+        $lbs = Kilograms::fromKilograms(100)->toLbs();
 
         $this->assertEquals(220.4623, $lbs);
     }
@@ -18,7 +18,7 @@ class WeightTest extends TestCase
     /** @test */
     public function it_can_conver_kilograms_to_stones()
     {
-        $lbs = Weight::fromKilograms(100)->toStones();
+        $lbs = Kilograms::fromKilograms(100)->toStones();
 
         $this->assertEquals(15.747, $lbs);
     }

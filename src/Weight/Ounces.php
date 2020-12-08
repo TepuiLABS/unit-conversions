@@ -1,5 +1,5 @@
 <?php
-namespace Tepuilabs\UnitConversions;
+namespace Tepuilabs\UnitConversions\Weight;
 
 class Ounces
 {

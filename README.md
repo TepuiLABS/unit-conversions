@@ -22,7 +22,7 @@ composer require tepuilabs/unit-conversions
 ## Usage
 
 ``` php
-$lbs = \Tepuilabs\UnitConversions\Weight::fromKilograms(100)->toLbs();
+$lbs = \Tepuilabs\UnitConversions\Weight\Kilograms::fromKilograms(100)->toLbs();
 ```
 
 ## Testing

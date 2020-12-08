@@ -2,6 +2,7 @@
 namespace Tepuilabs\UnitConversions;
 
 use PHPUnit\Framework\TestCase;
+use Tepuilabs\UnitConversions\Weight\Ounces;
 
 class OuncesTest extends TestCase
 {
