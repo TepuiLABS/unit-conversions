@@ -28,7 +28,7 @@ $lbs = \Tepuilabs\UnitConversions\Weight::fromKilograms(100)->toLbs();
 ## Testing
 
 ``` bash
-composer test
+composer all
 ```
 
 ## Changelog
