@@ -6,6 +6,16 @@ class Ounces
     private float $ounces;
 
     /**
+     * __construct function
+     *
+     * @param float $ounces
+     */
+    final public function __construct(float $ounces)
+    {
+        $this->ounces = $ounces;
+    }
+
+    /**
      * fromOunces function
      *
      * @param float $ounces
@@ -14,16 +24,6 @@ class Ounces
     public static function fromOunces(float $ounces): self
     {
         return new static($ounces);
-    }
-
-    /**
-     * __construct function
-     *
-     * @param float $ounces
-     */
-    public function __construct(float $ounces)
-    {
-        $this->ounces = $ounces;
     }
 
     /**

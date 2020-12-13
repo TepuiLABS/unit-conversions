@@ -6,6 +6,16 @@ class Pounds
     private $pounds;
 
     /**
+     * __construct function
+     *
+     * @param float $pounds
+     */
+    final public function __construct(float $pounds)
+    {
+        $this->pounds = $pounds;
+    }
+
+    /**
      * fromPounds function
      *
      * @param float $pounds
@@ -14,16 +24,6 @@ class Pounds
     public static function fromPounds(float $pounds): self
     {
         return new static($pounds);
-    }
-
-    /**
-     * __construct function
-     *
-     * @param float $pounds
-     */
-    public function __construct(float $pounds)
-    {
-        $this->pounds = $pounds;
     }
 
     /**

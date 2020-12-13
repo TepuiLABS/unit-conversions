@@ -1,10 +1,19 @@
 <?php
-
 namespace Tepuilabs\UnitConversions\Weight;
 
 class Kilograms
 {
     private float $kilograms;
+
+    /**
+     * __construct function
+     *
+     * @param float $kilograms
+     */
+    final public function __construct(float $kilograms)
+    {
+        $this->kilograms = $kilograms;
+    }
 
     /**
      * fromKilograms function
@@ -15,16 +24,6 @@ class Kilograms
     public static function fromKilograms(float $kilograms): self
     {
         return new static($kilograms);
-    }
-
-    /**
-     * __construct function
-     *
-     * @param float $kilograms
-     */
-    public function __construct(float $kilograms)
-    {
-        $this->kilograms = $kilograms;
     }
 
     /**

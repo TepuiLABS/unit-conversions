@@ -6,6 +6,16 @@ class Stones
     private $stones;
 
     /**
+     * __construct function
+     *
+     * @param float $stones
+     */
+    final public function __construct(float $stones)
+    {
+        $this->stones = $stones;
+    }
+
+    /**
      * fromStones function
      *
      * @param float $stones
@@ -14,16 +24,6 @@ class Stones
     public static function fromStones(float $stones): self
     {
         return new static($stones);
-    }
-
-    /**
-     * __construct function
-     *
-     * @param float $stones
-     */
-    public function __construct(float $stones)
-    {
-        $this->stones = $stones;
     }
 
     /**
